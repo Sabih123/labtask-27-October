@@ -1,0 +1,22 @@
+package labtask12;
+
+public class nodes {
+
+	public int num;
+	public nodes previous;
+	public nodes next;
+	public nodes address;
+	
+	public nodes(){
+		num=0;
+		next=null;
+	}
+	public nodes(int num,nodes next,nodes previous)
+	{
+		this.num=num;
+		this.next=next;
+		this.previous=previous;
+	}
+
+
+}
