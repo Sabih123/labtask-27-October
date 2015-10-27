@@ -1,0 +1,34 @@
+public class main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+			
+		mylinklist MyList = new mylinklist();
+
+		MyList.add(2);
+		
+		MyList.add(1);
+		
+		MyList.add(9);
+		
+		MyList.add(5);
+
+		MyList.add(0);
+		
+		MyList.add(7);
+		
+		MyList.add(3);
+		
+		MyList.index(1);
+		
+		
+		//System.out.println(MyList.h);
+		//MyList.remove();
+		
+		//System.out.println(MyList.i);
+		
+		MyList.display();	
+
+	}
+
+}
